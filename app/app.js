@@ -11,7 +11,9 @@ var App = React.createClass({
 });
 
 $(document).ready(function() {
+  console.log('ready');
   React.renderComponent(<App />, $('#content').get(0));
 });
 
+console.log('app v1');
 module.exports = App;
