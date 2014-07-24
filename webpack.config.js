@@ -10,7 +10,7 @@ module.exports = {
     filename: '[name].js'
   },
   plugins: [
-    new webpack.optimize.CommonsChunkPlugin('vendor', 'vendor.js')
+    new webpack.optimize.CommonsChunkPlugin('vendor', 'vendor.js', Infinity)
   ],
   externals: {
     'jquery': 'jQuery'

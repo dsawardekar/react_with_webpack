@@ -1,1 +1,1 @@
-webpackJsonp([1],[]);
+webpackJsonp([1],{0:function(e,t,n){var o=n(80),r=n(157),i=o.createClass({displayName:"App",render:function(){return o.DOM.h1(null,"React with webpack")}});r(document).ready(function(){console.log("ready"),o.renderComponent(i(null),r("#content").get(0))}),console.log("app v1"),e.exports=i},157:function(e){e.exports=jQuery}});
