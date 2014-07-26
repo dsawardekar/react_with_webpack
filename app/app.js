@@ -1,4 +1,5 @@
 /** @jsx React.DOM */
+require('./styles/app.css');
 var React = require('react');
 var $     = require('jquery');
 
